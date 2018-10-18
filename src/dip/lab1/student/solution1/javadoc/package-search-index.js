@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"dip.lab1.student.solution1"}]

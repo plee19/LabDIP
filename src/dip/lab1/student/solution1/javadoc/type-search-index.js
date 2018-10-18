@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"dip.lab1.student.solution1","l":"Employee"},{"p":"dip.lab1.student.solution1","l":"HourlyEmployee"},{"p":"dip.lab1.student.solution1","l":"HourlyEmpWithIncentive"},{"p":"dip.lab1.student.solution1","l":"HRService"},{"p":"dip.lab1.student.solution1","l":"SalariedEmployee"},{"p":"dip.lab1.student.solution1","l":"Startup"}]
