@@ -5,16 +5,11 @@ public enum ServiceQuality {
     FAIR(0.15),
     POOR(0.10);
 
-    private double v;
-    ServiceQuality(double v) {
-        this.setV(v);
+    private double tipPercent;
+    ServiceQuality(double tipPercent) {
+        this.tipPercent = tipPercent;
     }
-
-    public double getV() {
-        return v;
-    }
-
-    public void setV(double v) {
-        this.v = v;
+    public double getTipPercent() {
+        return tipPercent;
     }
 }
