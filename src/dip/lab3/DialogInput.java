@@ -1,4 +1,10 @@
 package dip.lab3;
 
-public class DialogInput {
+import javax.swing.JOptionPane;
+
+public class DialogInput implements Input {
+    public String getInput() {
+        String response = JOptionPane.showInputDialog(null, "Enter message here:");
+        return response;
+    }
 }

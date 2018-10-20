@@ -1,4 +1,9 @@
 package dip.lab3;
 
-public class DialogOutput {
+import javax.swing.JOptionPane;
+
+public class DialogOutput implements Output {
+    public void sendOutput(String s) {
+        JOptionPane.showMessageDialog(null,"Output message: " + s);
+    }
 }
